@@ -1,10 +1,6 @@
 
-import React, { useState } from "react";
-import Mainbranch from "./components/Main";
-import Values from "values.js";
-import Plate from "./components/colorplate.png"
 
-function App() {
-  const [color, setColor] = useState('');
-  const [list, setList] = useState(new Values("#008000").all())
-  // const [alert,setAlert] = useState(null)
+import Values from "values.js"; to import this package just write ---->> npm install values --save
+
+new Values(color).all();) --------->>> this will be the code which can enable you to use properties and method of values class or constructor in your code
+ 
